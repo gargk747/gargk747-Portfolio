@@ -488,7 +488,7 @@ section .title::after{
     width: calc(50% - 30px);
 }
 .contact .contact-content .text{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -507,10 +507,11 @@ section .title::after{
     margin-left: 30px;
 }
 .contact .contact-content .row i{
-    font-size: 25px;
+    font-size: 30px;
     color: crimson;
 }
 .contact .contact-content .info .head{
+    font-size: 20px;
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
