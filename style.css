@@ -268,7 +268,7 @@ section .title::after{
     content: "what i provide";
 }
 .education .serv-content .card{
-    width: calc(33% - 20px);
+    width: calc(50% - 20px);
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -291,6 +291,18 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .education .serv-content .card:hover i{
+    color: #fff;
+}
+.education .serv-content .card img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+    font-size: 10px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.education .serv-content .card:hover img{
     color: #fff;
 }
 .education .serv-content .card .text{
