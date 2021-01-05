@@ -262,7 +262,10 @@ section .title::after{
 .projects .title::before{
     background: #fff;
 }
-.education .title::after,
+.education .title::after{
+    background: #111;
+    content: "where i learn";
+}
 .projects .title::after{
     background: #111;
     content: "what i provide";
