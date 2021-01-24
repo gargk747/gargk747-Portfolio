@@ -6,5 +6,5 @@
 
 ## A sneek peek into what we have here🙈 :
 
-<p align="center"><img src="./assets/Readme_Assets/Education_Page.gif"></p>
+<p align="center"><img src="https://github.com/gargk747/gargk747-Portfolio/blob/master/images/2021-01-24%2017-04-41.gif"></p>
 
