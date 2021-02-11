@@ -254,9 +254,23 @@ section .title::after{
 }
 
 /* education section styling */
-.education, .projects{
-    color:#fff;
-    background: #111;
+.education{
+    display: flex;
+    background: url("images/banner.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+.projects{
+    display: flex;
+    background: url("images/banner.jpg") no-repeat center;
+    height: fit-content;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .education .title::before,
 .projects .title::before{
@@ -456,8 +470,8 @@ section .title::after{
 }
 .projects .carousel .card .box a{
     display: inline-block;
-    background: crimson;
-    color: #fff;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
