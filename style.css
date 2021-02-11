@@ -273,7 +273,6 @@ section .title::after{
 .education .serv-content .card{
     width: calc(50% - 20px);
     background: #222;
-    text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
     cursor: pointer;
@@ -284,6 +283,12 @@ section .title::after{
 }
 .education .serv-content .card .box{
     transition: all 0.3s ease;
+    text-align: center;
+}
+.education .serv-content .card .box p{
+    transition: all 0.3s ease;
+    text-align: start;
+    font-size: 18px;
 }
 .education .serv-content .card:hover .box{
     transform: scale(1.05);
