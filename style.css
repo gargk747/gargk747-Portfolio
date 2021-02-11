@@ -290,6 +290,13 @@ section .title::after{
     text-align: start;
     font-size: 18px;
 }
+.education .serv-content .card .box ul{
+    transition: all 0.3s ease;
+    text-align: start;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
 .education .serv-content .card:hover .box{
     transform: scale(1.05);
 }
